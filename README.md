@@ -1,0 +1,1 @@
+Simple sidebar based on the Rocketseat's sidebar challenge using JavaScript, HTML and CSS
