@@ -11,3 +11,59 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+
+    color: var(--text-color);
+
+    background-color: var(--body-bg-color);
+}
+
+nav {
+    width: 20%;
+    min-width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--green);
+}
+
+nav ul {
+    width: 90%;
+    margin-top: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+nav ul li:first-child {
+    justify-content: space-between;
+}
+nav ul li {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.logout {
+    width: 100%;
+    background-color: var(--light-green);
+}
+.logout .info img {
+    width: 100px;
+}
+
+main {
+    width: 100%;
+    margin: 1rem;
+}
